@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String patientName = sc.nextLine();
+        int patientId = sc.nextInt();
+        int age = sc.nextInt();
+        double temperature = sc.nextDouble();
+        boolean admitted = sc.nextBoolean();
+
+        System.out.println("PATIENT RECORD");
+        System.out.println("Patient Name: " + patientName);
+        System.out.println("Patient ID: " + patientId);
+        System.out.println("Age: " + age);
+        System.out.println("Temperature: " + temperature);
+        System.out.println("Admitted: " + admitted);
+    }
+}
